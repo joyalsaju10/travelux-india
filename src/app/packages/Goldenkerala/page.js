@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
-export default function GoldenKerala() {
+export default function Goldenkerala() {
   const router = useRouter();
 
   return (

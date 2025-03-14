@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useRouter } from "next/navigation";
 
-export default function CaptivatingKerala() {
+export default function Captivatingkerala() {
   const router = useRouter();
 
   return (
