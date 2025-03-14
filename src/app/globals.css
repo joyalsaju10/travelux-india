@@ -1,0 +1,34 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@font-face {
+  font-family: "Stella";
+  src: url("/font/Stella 400.ttf") format("truetype"); /* Change if using .woff */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@keyframes scrolling-paper {
+  0% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
