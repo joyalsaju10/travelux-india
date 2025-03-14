@@ -18,7 +18,7 @@ export default function Explorekerala() {
       {/* Package Title and Main Image */}
       
       <div className="flex flex-col items-center mt-4">
-        <Image src="/images/EK1.jpg" alt="Evergreen Kerala" width={800} height={450} className="rounded-lg shadow-lg" />
+        <Image src="/images/EK1.jpg" alt="Explore Kerala" width={800} height={450} className="rounded-lg shadow-lg" />
         <h1 className="text-3xl font-bold text-center text-blue-600">Explore Kerala</h1>
         <p className="text-lg mt-2 text-gray-700">3 Days | 2 Nights</p>
         <p className="text-center text-gray-600 mt-2">
