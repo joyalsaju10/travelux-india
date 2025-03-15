@@ -37,7 +37,7 @@ export default function TravelPage() {
       <div
         className="relative w-full h-[300px] md:h-[400px] flex items-center justify-center"
         style={{
-          backgroundImage: "url('/images/bg-main.jpg')",
+          backgroundImage: "url('/images/bg-main1.jpg')",
           backgroundSize: "cover",
           backgroundPosition: "center",
         }}
