@@ -24,7 +24,7 @@ export default function About() {
 
         {/* Mission Section */}
         <div className="mt-6">
-          <h2 className="text-2xl font-semibold text-blue-400">Our Mission</h2>
+          <h2 className="text-2xl font-semibold text-blue-600">Our Mission</h2>
           <p className="mt-2 text-gray-600">
             Our goal is to provide hassle-free and enriching travel experiences, ensuring every trip is a journey of discovery and joy.
           </p>
@@ -32,9 +32,9 @@ export default function About() {
 
         {/* Contact Section */}
         <div className="mt-6">
-          <h2 className="text-2xl font-semibold text-blue-400">Get in Touch</h2>
+          <h2 className="text-2xl font-semibold text-blue-600">Get in Touch</h2>
           <p className="mt-2 text-gray-600">
-            Have any questions? Reach out to us at <strong>contact@traveluxindia.com</strong>.
+            Have any questions? Reach out to us at <strong>info.traveluxindia@gmail.com</strong>.
           </p>
         </div>
       </div>

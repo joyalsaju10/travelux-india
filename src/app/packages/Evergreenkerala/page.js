@@ -61,9 +61,9 @@ export default function Evergreenkerala() {
       <section className="mt-6">
         <h2 className="text-2xl font-bold text-blue-600 text-center">Gallery</h2>
         <div className="grid grid-cols-2 md:grid-cols-2 gap-4 mt-4">
+          <Image src="/images/E2.jpg" alt="" width={400} height={250} className="rounded-lg shadow-md" />
           <Image src="/images/E3.jpg" alt="" width={400} height={250} className="rounded-lg shadow-md" />
           <Image src="/images/E4.jpg" alt="" width={400} height={250} className="rounded-lg shadow-md" />
-          <Image src="/images/E2.jpg" alt="" width={400} height={250} className="rounded-lg shadow-md" />
           <Image src="/images/E5.jpg" alt="" width={400} height={250} className="rounded-lg shadow-md" />
         </div>
       </section>
