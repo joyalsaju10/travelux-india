@@ -20,7 +20,7 @@ export default function Goldenkerala() {
       <div className="flex flex-col items-center mt-4">
         <Image src="/images/G1.jpg" alt="Golden Kerala" width={800} height={450} className="rounded-lg shadow-lg" />
         <h1 className="text-3xl font-bold text-center text-blue-600">Golden Kerala</h1>
-        <p className="text-lg mt-2 text-gray-700">3 Days | 2 Nights</p>
+        <p className="text-lg mt-2 text-gray-700">7 Days | 6 Nights</p>
         <p className="text-center text-gray-600 mt-2">
         Join this exciting 7-day tour, delve deep into the pictorial beauty of Kerala and discover the meticulous beauty of God's Own Country!        </p>
       </div>

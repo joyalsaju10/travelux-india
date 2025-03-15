@@ -13,9 +13,9 @@ export default function TravelPage() {
   const bestPackages = [
     { name: "Evergreen Kerala", path: "Evergreenkerala", duration: "3 Days | 2 Nights", img: "/images/Evergreen 1.jpg" },
     { name: "Captivating Kerala", path: "Captivatingkerala", duration: "5 Days | 4 Nights", img: "/images/Captivating kerala .jpg" },
-    { name: "Explore Kerala", path: "Explorekerala", duration: "4 Days | 3 Nights", img: "/images/explore kerala.jpg" },
+    { name: "Explore Kerala", path: "Explorekerala", duration: "6 Days | 5 Nights", img: "/images/explore kerala.jpg" },
     { name: "Golden Kerala", path: "Goldenkerala", duration: "7 Days | 6 Nights", img: "/images/Golden kerala.jpg" },
-    { name: "Classic Kerala", path: "Classickerala", duration: "6 Days | 5 Nights", img: "/images/Classic kerala.jpg" },
+    { name: "Classic Kerala", path: "Classickerala", duration: "4 Days | 3 Nights", img: "/images/Classic kerala.jpg" },
   ];
 
   const topPackages = [

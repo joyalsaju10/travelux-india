@@ -20,7 +20,7 @@ export default function Captivatingkerala() {
       <div className="flex flex-col items-center mt-4">
         <Image src="/images/C1.jpg" alt="Captivating Kerala" width={800} height={450} className="rounded-lg shadow-lg" />
         <h1 className="text-3xl font-bold text-center text-blue-600">Captivating kerala</h1>
-        <p className="text-lg mt-2 text-gray-700">4 Days | 3 Nights</p>
+        <p className="text-lg mt-2 text-gray-700">5 Days | 4 Nights</p>
         <p className="text-center text-gray-600 mt-2">
         Experience the ultimate 5-day adventure through Munnar, Thekkady, and Alleppey, exploring stunning landscapes, wildlife, and serene backwaters.        </p>
       </div>
