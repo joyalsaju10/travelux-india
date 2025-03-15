@@ -14,7 +14,7 @@ export default function TravelPage() {
     { name: "Evergreen Kerala", path: "Evergreenkerala", duration: "3 Days | 2 Nights", img: "/images/Evergreen 1.jpg" },
     { name: "Captivating Kerala", path: "Captivatingkerala", duration: "5 Days | 4 Nights", img: "/images/Captivating kerala .jpg" },
     { name: "Explore Kerala", path: "Explorekerala", duration: "6 Days | 5 Nights", img: "/images/explore kerala.jpg" },
-    { name: "Golden Kerala", path: "Goldenkerala", duration: "7 Days | 6 Nights", img: "/images/Golden kerala.jpg" },
+    { name: "Golden Kerala", path: "Goldenkerala", duration: "7 Days | 6 Nights", img: "/images/Gk1.jpg" },
     { name: "Classic Kerala", path: "Classickerala", duration: "4 Days | 3 Nights", img: "/images/Classic kerala.jpg" },
   ];
 
@@ -50,7 +50,7 @@ export default function TravelPage() {
       </div>
 
       <main className="p-4 sm:p-6">
-        <h2 className="text-2xl md:text-3xl font-bold text-center text-blue-600">Welcome to Travelux India</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-center text-blue-600 ">Welcome to Travelux India</h2>
         <p className="text-base md:text-lg mt-2 text-center">
           We offer the best tour packages to explore Kerala’s stunning landscapes, peaceful backwaters, and rich culture.
         </p>
@@ -92,14 +92,14 @@ export default function TravelPage() {
       <span className="text-xs font-bold border px-2 py-1 rounded">100%</span>
     </div>
 
-    <h2 className="text-xl sm:text-2xl font-semibold text-blue-600">CUSTOMIZABLE SERVICES</h2>
+    <h2 className="text-xl sm:text-2xl font-extrabold text-blue-600">CUSTOMIZABLE SERVICES</h2>
 
     <div className="grid grid-cols-3 sm:grid-cols-4 gap-4 mt-4">
       {[
         { icon: "bed decoration", text: "Flower Bed Decoration" },
         { icon: "jeep-safari", text: "Adventure Jeep Safari" },
-        { icon: "ayurveda spa", text: "Wellness Ayurveda Spa" },
-        { icon: "candlelight dinner", text: "Candlelight Dinner" },
+        { icon: "ayurveda-spa", text: "Wellness Ayurveda Spa" },
+        { icon: "candlelight-dinner", text: "Candlelight Dinner" },
         { icon: "jacuzzi", text: "Jacuzzi" },
         { icon: "photoshoot", text: "Photoshoot" },
         { icon: "cake cutting", text: "Cake Cutting" },
@@ -111,6 +111,10 @@ export default function TravelPage() {
         </div>
       ))}
     </div>
+    {/* Exclusive Package */}
+    <p className="mt-4 text-sm font-semibold">Travelux India Exclusive Package</p>
+            <p className="text-sm">Unique Stays (Tree House / Glamping Stay / Mud House / Jungle Stay / Tent Stay)</p>
+
   </div>
 </section>
 
@@ -153,7 +157,7 @@ export default function TravelPage() {
       {/* Floating Call & WhatsApp Buttons */}
       <a
         href="tel:+919633111010"
-        className="fixed bottom-6 left-6 md:bottom-10 md:left-10 bg-blue-500 hover:bg-blue-600 text-white p-5 md:p-5 rounded-full shadow-lg flex items-center justify-center transition-all duration-300"
+        className="fixed bottom-6 left-6 md:bottom-10 md:left-10 bg-blue-500 hover:bg-blue-600 text-white p-3 md:p-5 rounded-full shadow-lg flex items-center justify-center transition-all duration-300"
         aria-label="Call Now"
       >
         <Image src="/icons/telephone.svg" alt="Call" width={35} height={35} className="md:w-[40px] md:h-[40px]" />
@@ -163,7 +167,7 @@ export default function TravelPage() {
         href="https://wa.me/919633111010"
         target="_blank"
         rel="noopener noreferrer"
-        className="fixed bottom-6 right-6 md:bottom-10 md:right-10 bg-green-500 p-4 md:p-5 rounded-full shadow-lg hover:bg-green-600 transition"
+        className="fixed bottom-6 right-6 md:bottom-10 md:right-10 bg-green-500 p-3  md:p-5 rounded-full shadow-lg hover:bg-green-600 transition"
       >
         <Image src="/icons/whatsapp.svg" alt="WhatsApp" width={35} height={35} className="md:w-[40px] md:h-[40px]" />
       </a>

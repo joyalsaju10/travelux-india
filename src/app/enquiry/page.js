@@ -4,12 +4,12 @@ import { useState } from "react";
 import Head from "next/head";
 import Layout from "../components/layout";
 
-
 export default function EnquiryPage() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
+    address: "", // Step 1: Add address to state
     message: "",
   });
 
@@ -25,6 +25,7 @@ export default function EnquiryPage() {
     
     📧 Email: ${formData.email}
     📞 Phone: ${formData.phone}
+    🏠 Address: ${formData.address} // Step 4: Include address in message
     📝 Message: ${formData.message}`;
 
     const whatsappURL = `https://wa.me/919633111010?text=${encodeURIComponent(message)}`;
@@ -87,9 +88,18 @@ export default function EnquiryPage() {
             onChange={handleChange}
             required
           />
+          <input
+            type="text"
+            name="address"
+            placeholder="Your Address" // Step 2: Add address input field
+            className="w-full p-3 border rounded-lg"
+            value={formData.address}
+            onChange={handleChange}
+            required
+          />
           <textarea
             name="message"
-            placeholder="Your Message"
+            placeholder="Travel Plans"
             className="w-full p-3 border rounded-lg h-24 sm:h-32"
             value={formData.message}
             onChange={handleChange}
@@ -108,7 +118,7 @@ export default function EnquiryPage() {
       <div className="text-center mt-6 sm:mt-10 text-gray-600">
         <p>
           📞 Call us: <span className="font-semibold">+91 9633111010</span> <br />
-          <span className="font-semibold">96330 59668</span>
+          <span className="font-semibold">+91 96330 59668</span>
         </p>
         <p>📧 Email: info.traveluxindia@gmail.com</p>
       </div>

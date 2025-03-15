@@ -63,17 +63,8 @@ export default function Layout({ children }) {
               </p>
             </div>
 
-            {/* Quick Links Section */}
-            <div>
-              <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
-              <ul className="space-y-2">
-                <li><Link href="/about" className="hover:underline">About Us</Link></li>
-                <li><Link href="/packages" className="hover:underline">Packages</Link></li>
-                <li><Link href="/enquiry" className="hover:underline">Enquiry</Link></li>
-              </ul>
-            </div>
-
-            {/* Contact Information */}
+      
+             {/* Contact Information */}
             <div>
               <h3 className="text-lg font-semibold text-white mb-4">Contact Us</h3>
               <p className="text-sm">Email: info.traveluxindia@gmail.com</p>
